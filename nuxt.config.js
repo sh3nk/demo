@@ -42,7 +42,8 @@ export default {
   */
   plugins: [
     '~/plugins/axios',
-    '~/plugins/global'
+    '~/plugins/global',
+    '~/plugins/chart.client'
   ],
   /*
   ** Auto import components

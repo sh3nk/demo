@@ -30,6 +30,8 @@
         >
           <!-- <a href="#" class="mx-md-4 d-block px-md-3 py-2">Authtrail Whitepaper</a> -->
 
+          <nuxt-link to="/calculate" class="d-block mx-md-4 px-md-3 py-2">Calculator</nuxt-link>
+
           <b-button 
             variant="primary" 
             href="https://authtrail.com/"
@@ -106,9 +108,9 @@ export default {
     margin-top: 12rem;
   }
 
-  @media (min-width: 768px) {
-    margin-top: 14rem;
-  }
+  // @media (min-width: 768px) {
+  //   margin-top: 14rem;
+  // }
 }
 
 .transparent-nav {
